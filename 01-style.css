@@ -1,0 +1,359 @@
+:root {
+    font-family: 'Merriweather', serif;
+    min-height: 100vh;
+    max-width: 1280px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0px !important;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.page-container {
+    margin-bottom: 70px;
+}
+
+.nav {
+
+}
+.maintext{
+    margin:100px;
+}
+
+.aboutUsBanner {
+    display: flex;
+    justify-content: center;;
+    font-size: 40px;
+   color:aliceblue;
+   align-items: center;
+  width:100%;
+  height: 200px;
+  background-image:url("aboutUsImg.jpg") ;
+
+
+}
+
+.subtext  {
+    display: flex;
+}
+
+.subtext div {
+    padding: 90px;
+    margin: 10px;
+    width:100%;
+    border-radius: 10px;
+    color: white;
+}
+
+.subtext .green {
+    background-color: #1eb2a6;
+}
+.subtext .yellow {
+    background-color: #f0a500;
+}
+a {
+    color: white;
+   text-decoration: none;
+}
+nav {
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 56px;
+    height: 56px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+nav .logo .title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+nav ul li {
+    color: white;
+    padding: 22px 48px;
+    background-color: #333333;
+}
+
+nav ul li:hover {
+    background-color: #222222;
+}
+nav ul li.active {
+    background-color: #222222;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* .banner .heading::before {
+    display: inline-block;
+    content: open-quote;
+    color: white;
+    font-size: 32px;
+}
+.banner .heading::after {
+    display: inline-block;
+    content: close-quote;
+    color: white;
+    font-size: 32px;
+} */
+.bodyPara {
+    border: 0px ;
+    padding-right: 70px;
+    padding-left:70px;
+}
+
+/* Blends */
+
+h3.title {
+    font-size: 24px;
+    padding: 12px;
+    margin: 6px;
+    border-top: 5px solid #ddd;
+    border-bottom: 5px solid #ddd;
+}
+.classicBlends {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.blend {
+    flex-basis: 325px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+
+}
+.blend h4 {
+    font-size: 20px;
+    padding: 12px;
+    margin: 6px;
+    border-top: 5px solid #ddd;
+    border-bottom: 5px solid #ddd;
+}
+.blend p {
+    padding: 0px 12px;
+}
+.blend img {
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+
+}
+.blend img:hover {
+    transform : scale(0.95);
+    opacity:0.5;
+}
+.blend div{
+    margin-left: 60%;
+}
+.blend div button {
+    background-color: #391A13;
+    color:white;
+    margin: 0;
+  padding:4px;
+    border: none;
+    border-radius: 4px;
+    width:30%;
+    font-size:12px;
+}
+.project button:hover {
+    background-color: #45a049;
+}
+.coffeeBlends{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.coffeeBlends .blend {
+    flex-basis: 325px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+}
+.banner {
+    font-size: 40px;
+    padding: 12px;
+    color:antiquewhite;
+    
+   margin:0;
+    height: 200px;
+    text-align: center;
+  text-shadow: #ddd;
+}
+
+h3.title {
+    font-size: 24px;
+    padding: 12px;
+    margin: 6px;
+ 
+}
+
+.addresses {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 300px 300px; /*Make the grid smaller than the container*/
+    gap: 50px;
+    padding: 10px;
+    margin-top:20px;
+   margin-left: 200px;
+   margin-right: 200px;
+
+}
+.address {
+    background-color: #f38021;
+  text-align: center;
+  padding:0 0;
+  font-size: 30px;
+}
+.btn {
+    background-color: #391A13;
+    color:white;
+    margin: 0;
+  padding:4px;
+    border: none;
+    border-radius: 4px;
+   
+    font-size:20px;
+}
+.workshops {
+    display: flex;
+    flex-direction: column;
+
+}
+.workshop {
+    flex-basis: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+}
+
+/* Contact */
+.container {
+    display: flex;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px 0px;
+}
+.container form {
+    flex: 1;
+}
+input[type=text], input[type=email], input[type=number],  select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing : border-box;
+    margin-top:6px;
+    margin-bottom: 16px;
+    height: 50px;
+}
+input[type=submit] {
+    background-color: #391A13;
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+input[type=submit]:hover{
+ background-color: #5F3329;
+}
+.container .map {
+    padding: 12px;
+    margin-left: 20px;
+flex: 1;
+}
+
+.footer {
+      position: fixed;
+      left: 25px;
+      right: 25px;
+      bottom: 0;
+      background-color: #333333;
+      color: white;
+      text-align: center;
+      padding: 24px;
+   
+}
+
+/* Tablets */
+@media all and (max-width: 800px) {
+    nav {
+        justify-content: flex-start;
+    }
+    nav ul {
+        justify-content: space-between;
+    }
+}
+/* Phones */
+@media all and (max-width: 600px) {
+  nav {
+      flex-direction: column;
+      align-items: center;
+  }
+  nav ul {
+      width: 100%;
+      flex-direction: column;
+      align-items: stretch;
+  }
+  nav ul li {
+      text-align: center;
+  }
+}
+.container {
+    flex-direction: column;
+}
+.container .map {
+    margin-left: 0px;
+
+}
+
+
+@keyframes appear {
+  from {
+      opacity: 0.0;
+      top: -100px;
+  }
+  to {
+      opacity: 1.0;
+      top: 0.0;
+  }
+}
